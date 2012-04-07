@@ -35,15 +35,15 @@ def clock_work
 
   now = Time.now
   
-  #$BIC?K(B
+  #秒針
   angle = now.sec * -6 + 180
   draw_arm(OP,angle,150)
 
-  #$BJ,?K(B
+  #分針
   angle = now.min * -6 + 180
   draw_arm(OP,angle,130)
 
-  #$B;~?K(B
+  #時針
   angle = ((now.hour - 12) * -30 + 180) - (now.min * 0.5)
   draw_arm(OP,angle,100)
 end
