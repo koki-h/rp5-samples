@@ -1,3 +1,15 @@
+# How to play:
+# $ rp5 live cube.rb
+# irb(main):001:0> $rotation_rate = 0.05
+# #=> 0.05
+# irb(main):002:0> $app.noStroke
+# #=> nil
+# irb(main):003:0> $light=lambda{$app.lights}
+# #=> #<Proc:0x19ab00e@(irb):3>
+# irb(main):004:0> $zoom_speed = 3
+# #=> 3
+# et cetera..
+
 load_libraries :opengl, :boids
 $size=50
 $zoom = true
