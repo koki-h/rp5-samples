@@ -1,5 +1,5 @@
 # Map
-# wikipedia $B$K$"$C$?F|K\CO?^$NEI$jJ,$1%W%m%0%i%`$r(Bruby-processing$B$K0\?"$7$F$_$?!#(B
+# wikipedia にあった日本地図の塗り分けプログラムをruby-processingに移植してみた。
 # http://ja.wikipedia.org/wiki/Processing#.E6.97.A5.E6.9C.AC.E5.9C.B0.E5.9B.B3.E3.81.AE.E5.A1.97.E3.82.8A.E5.88.86.E3.81.91
 
 class Map < Processing::App
