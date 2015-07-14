@@ -10,7 +10,7 @@
 # #=> 3
 # et cetera..
 
-load_libraries :opengl, :boids
+#load_libraries :opengl, :boids
 $size=50
 $zoom = true
 $light = lambda {
@@ -19,7 +19,7 @@ $light = lambda {
 
 def setup
   init_val
-  size 380, 380, OPENGL
+  size 380, 380, P3D
   smooth
   frame_rate 30
 end
